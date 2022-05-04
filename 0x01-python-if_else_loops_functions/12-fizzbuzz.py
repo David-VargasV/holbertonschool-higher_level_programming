@@ -1,10 +1,11 @@
 #!/usr/bin/python3
 def fizzbuzz():
-    for mul % 15 == 0:
-        print("{}".format("FizzBuzz "), end="")
+    for mul in range(1, 101):
+        if mul % 3 == 0 and mul % 5 == 0:
+        print("FizzBuzz"), end=" ")
     elif mul % 5 == 0:
-        print("{}".format("Buzz "), end="")
+        print("Buzz"), end=" ")
     elif mul % 3 == 0:
-        print("{}".format("Fizz "), end="")
+        print("Fizz"), end=" ")
     else:
-        print("{:d}".format(mul), end="")
+        print(mul, end=" ")
