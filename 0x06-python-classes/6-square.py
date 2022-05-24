@@ -61,6 +61,6 @@ class Square:
                 for x in range(self.__size):
                     print("#", end="")
                 print()
-    
+
     def area(self):
         return (self.__size**2)
