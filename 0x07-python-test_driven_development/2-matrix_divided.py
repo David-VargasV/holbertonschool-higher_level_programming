@@ -1,12 +1,20 @@
 #!/usr/bin/python3
+"""
+Divide a matrix
 
-"""Temporal"""
+Function that divides all elements of a matrix
+"""
 
 
 def matrix_divided(matrix, div):
-    """"Temporal"""
-    
+
+    """
+    The function divides the elements of
+    a matrix and returns to a new matrix
+    """
+
     """Error Messages"""
+
     Type_error1 = "matrix must be a matrix (list of lists) of integers/floats"
     Type_error2 = "Each row of the matrix must have the same size"
     Type_error3 = "div must be a number"
