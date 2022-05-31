@@ -1,0 +1,85 @@
+==================================
+Test for "5-text_indentation.py" module
+==================================
+
+The function in this module ''text_indentation''
+
+function that prints a text with 2
+new lines after each of these characters: '.', '?' and ':'.
+-------------------------------------------
+
+Import from module:
+>>> text_indentation = __import__('5-text_indentation').text_indentation
+
+testing:
+>>> text_indentation("hello. world? how, are: you")
+hello.
+<BLANKLINE>
+world?
+<BLANKLINE>
+how, are:
+<BLANKLINE>
+you
+
+>>> text_indentation(".?:")
+.
+<BLANKLINE>
+?
+<BLANKLINE>
+:
+<BLANKLINE>
+
+>>> text_indentation("How are you?")
+How are you?
+<BLANKLINE>
+
+>>> text_indentation("Hello world")
+Hello world
+
+>>> text_indentation("My name is... what is?... example:")
+My name is.
+<BLANKLINE>
+.
+<BLANKLINE>
+.
+<BLANKLINE>
+what is?
+<BLANKLINE>
+.
+<BLANKLINE>
+.
+<BLANKLINE>
+.
+<BLANKLINE>
+example:
+<BLANKLINE>
+
+>>> text_indentation(.?:)
+Traceback (most recent call last):
+...
+SyntaxError: invalid syntax
+
+>>> text_indentation(-2)
+Traceback (most recent call last):
+...
+TypeError: text must be a string
+
+>>> text_indentation(["hello", "world"])
+Traceback (most recent call last):
+...
+TypeError: text must be a string
+
+>>> text_indentation(2, 5)
+Traceback (most recent call last):
+...
+TypeError: text_indentation() takes 1 positional argument but 2 were given
+
+>>> text_indentation(None)
+Traceback (most recent call last):
+...
+TypeError: text must be a string
+
+text_indentation(2, ":.?")
+Traceback (most recent call last):
+...
+TypeError: text_indentation() takes 1 positional argument but 2 were given
