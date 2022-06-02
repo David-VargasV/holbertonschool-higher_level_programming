@@ -1,7 +1,7 @@
 # 0x07. Python - Test-driven development
 ***
 
-![image](https://user-images.githubusercontent.com/98335124/171075281-6be507c5-41cd-4788-8760-81386f810eaa.png)
+![image](https://s3.amazonaws.com/intranet-projects-files/holbertonschool-higher-level_programming+/246/giphy-4.gif)
 ***
 
 ## Learning
