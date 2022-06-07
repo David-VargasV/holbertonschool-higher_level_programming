@@ -4,15 +4,14 @@ Test for "7-base_geometry.py" module
 
 The function in this module ''BaseGeometry''
 
-
 -------------------------------------------
 
 Import from module:
->>> MyList = __import__('1-my_list').MyList
+>>> BaseGeometry = __import__('7-base_geometry').BaseGeometry
 
 
 Testing:
 ==================================
 
-list integer
+integer
 ----------------------------------
