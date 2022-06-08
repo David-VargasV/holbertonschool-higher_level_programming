@@ -62,6 +62,16 @@ Traceback (most recent call last):
 ...
 TypeError: algo must be an integer
 
+>>> bg.integer_validator("algo", 4.6)
+Traceback (most recent call last):
+...
+TypeError: algo must be an integer
+
+>>> bg.integer_validator(5, 6, 8)
+Traceback (most recent call last):
+...
+TypeError: integer_validator() takes 3 positional arguments but 4 were given
+
 >>> bg.area()
 Traceback (most recent call last):
 ...
