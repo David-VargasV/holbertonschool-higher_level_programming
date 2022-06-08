@@ -46,3 +46,18 @@ TypeError: algo must be an integer
 Traceback (most recent call last):
 ...
 TypeError: algo must be an integer
+
+>>> bg.integer_validator('age', True)
+Traceback (most recent call last):
+...
+TypeError: age must be an integer
+
+>>> bg.integer_validator("algo", (7, 9))
+Traceback (most recent call last):
+...
+TypeError: algo must be an integer
+
+>>> bg.integer_validator("algo", {45, 17})
+Traceback (most recent call last):
+...
+TypeError: algo must be an integer
