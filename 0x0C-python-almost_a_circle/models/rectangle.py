@@ -2,6 +2,7 @@
 '''Write the class Rectangle'''
 
 
+import re
 from models.base import Base
 
 
@@ -111,5 +112,5 @@ class Rectangle(Base):
             "widht": self.__width,
             "height": self.__height,
             "x": self.__x,
-            "y": self.__y,
+            "y": self.__y
         }
