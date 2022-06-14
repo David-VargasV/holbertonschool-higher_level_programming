@@ -56,6 +56,12 @@ You will also learn about:
 * We strongly encourage you to work together on test cases so that you don’t miss any edge case
 ***
 
+## Files models
+* [base_py](https://github.com/David-VargasV/holbertonschool-higher_level_programming/blob/main/0x0C-python-almost_a_circle/models/base.py)
+* [rectangle.py](https://github.com/David-VargasV/holbertonschool-higher_level_programming/blob/main/0x0C-python-almost_a_circle/models/rectangle.py) 
+* [square.py](https://github.com/David-VargasV/holbertonschool-higher_level_programming/blob/main/0x0C-python-almost_a_circle/models/square.py)
+***
+
 ## Tasks 📝
 0. If it's not tested it doesn't work - All your files, classes and methods must be unit tested and be PEP 8 validated.
 
