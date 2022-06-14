@@ -59,6 +59,6 @@ class Base:
         try:
             with open(filename, "r") as file:
                 l_dic = Base.from_json_string(file.read())
-                return [cls.create(**dict) for dict in l_dic]
+                return [cls.create(**dicti) for dicti in l_dic]
         except Exception:
             return []
