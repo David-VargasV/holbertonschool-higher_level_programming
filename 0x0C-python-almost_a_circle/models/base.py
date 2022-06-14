@@ -55,9 +55,9 @@ class Base:
         return(dummy)
 
     @classmethod
-    def load_from_file(cls):
+    def load_from_file(cls) -> filename:
         '''returns a list of instances'''
-        filename = cls.__name__+".json"
+        filename = cls.__name__ + ".json"
         try:
             with open(filename, "r") as file:
                 l_dic = Base.from_json_string(file.read())
