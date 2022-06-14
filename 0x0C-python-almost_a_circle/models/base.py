@@ -59,7 +59,7 @@ class Base:
         '''returns a list of instances'''
         filename = cls.__name__ + ".json"
         try:
-            with open(filename, "r", encoding="utf-8") as file:
+            with open(filename, "r") as file:
                 l_dic = Base.from_json_string(file.read())
                 return [cls.create(**dictionary) for dictionary in l_dic]
         except Exception:
