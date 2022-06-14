@@ -2,7 +2,6 @@
 '''Write the class Base'''
 
 
-from fileinput import filename
 import json
 
 
@@ -55,7 +54,7 @@ class Base:
         return(dummy)
 
     @classmethod
-    def load_from_file(cls) -> filename:
+    def load_from_file(cls):
         '''returns a list of instances'''
         filename = cls.__name__ + ".json"
         try:
