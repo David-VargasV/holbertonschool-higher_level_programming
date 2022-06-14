@@ -1,10 +1,10 @@
-# 0x0C. Python - Almost a circle
+# 0x0C. Python - Almost a circle 💻💻💻
 ***
 
 ![image](https://user-images.githubusercontent.com/98335124/173697736-a0c0a121-6024-4066-b0df-851751258501.png)
 ***
 
-## Learning
+## Learning 📜📖
 * What is Unit testing and how to implement it in a large project
 * How to serialize and deserialize a Class
 * How to write and read a JSON file
@@ -17,9 +17,15 @@
 JSON as we know stands for JavaScript Object Notation. It is a lightweight data-interchange format and has become the most popular medium of exchanging data over the web. The reason behind its popularity is that it is both human-readable and easy for machines to parse and generate. Also, it’s the most widely used format for the REST APIs. Python provides a built-in json library to deal with JSON objects. All you need is to import the JSON module using the following line in your Python program and start using its functionality.
 
 The unittest unit testing framework was originally inspired by JUnit and has a similar flavor as major unit testing frameworks in other languages. It supports test automation, sharing of setup and shutdown code for tests, aggregation of tests into collections, and independence of the tests from the reporting framework.
+
+You will also learn about:
+
+* args and kwargs
+* Serialization/Deserialization
+* JSON
 ***
 
-## Requirements
+## Requirements 🔧
 ***
 
 ### General
@@ -50,7 +56,7 @@ The unittest unit testing framework was originally inspired by JUnit and has a s
 * We strongly encourage you to work together on test cases so that you don’t miss any edge case
 ***
 
-## Tasks
+## Tasks 📝
 0. If it's not tested it doesn't work - All your files, classes and methods must be unit tested and be PEP 8 validated.
 
 1. Base class - Write the first class Base:
