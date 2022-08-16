@@ -1,8 +1,9 @@
 #!/usr/bin/node
-const list = process.argv.slice(2).map(n => parseInt(n));
-const sortList = list.sort((a, b) => a < b);
-if (sortList.length <= 1) {
+if (process.argv.length <= 3) {
   console.log(0);
 } else {
-  console.log(sortList[1]);
+  const args = process.argv.map(Number)
+    .slice(2, process.argv.length)
+    .sort((a, b) => a - b);
+  console.log(args[args.length - 2]);
 }
