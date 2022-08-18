@@ -7,7 +7,7 @@ request(ApiUrl, function (error, response, body) {
   }
   const data = {};
   for (const task of JSON.parse(body)) {
-    if (task.data === true) {
+    if (task.complete === true) {
       if (data[task.userId]) {
         data[task.userId]++;
       } else {
