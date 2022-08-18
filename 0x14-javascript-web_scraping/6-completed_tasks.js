@@ -5,15 +5,15 @@ request(ApiUrl, function (error, response, body) {
   if (error) {
     console.log(error);
   }
-  const data = {};
+  const completed = {};
   for (const task of JSON.parse(body)) {
     if (task.complete === true) {
-      if (data[task.userId]) {
-        data[task.userId]++;
+      if (completed[task.userId]) {
+        completed[task.userId]++;
       } else {
-        data[task.userId] = 1;
+        completed[task.userId] = 1;
       }
     }
   }
-  console.log(data);
+  console.log(completed);
 });
